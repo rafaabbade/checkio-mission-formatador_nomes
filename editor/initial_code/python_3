@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def formatador_nomes(nome_completo):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(formatador_nomes("jose da silva"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert formatador_nomes("jose da silva") == "Jose Da Silva"
+assert formatador_nomes("maria dos anjos") == "Maria Dos Anjos"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

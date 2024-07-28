@@ -1,22 +1,22 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Construção de Conhecimento:</strong> Explore novos conceitos e técnicas. Peça dicas e leia-as com atenção. Pesquise se necessário.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Beatriz, uma administradora de recursos humanos, recebe frequentemente formulários de inscrição onde os candidatos digitam seus nomes completos inteiramente em letras minúsculas. Para manter a consistência e a formalidade nos documentos oficiais da empresa, ela precisa de uma ferramenta que corrija automaticamente a capitalização dos nomes. Crie uma função que receba um nome completo com todas as letras em minúscula e retorne o nome com a primeira letra de cada parte do nome capitalizada, adequado para apresentação formal.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Uma string (nome_completo) em minúsculas.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> A string com cada parte do nome capitalizada.
 </p>
 
 
@@ -32,11 +32,13 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    formatador_nomes("jose da silva") >> "Jose Da Silva"
+formatador_nomes("maria dos anjos") >> "Maria Dos Anjos"
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Manipulação de Strings</li>
+
 </ul>
